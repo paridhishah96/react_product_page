@@ -1,62 +1,17 @@
 import React, { useEffect, useState } from "react";
+import productData from "./helpers/productData";
+import ProductCard from "./components/ProductCard";
 
 
+// To keep the code as clean and DRY as possible, I have created a separate file to store the product data and made a seperate component for the Product Card.
+// The Product Card component is a reusable component that can be used to display the product details in a card format.
+// The product data is fetched from the productData file and passed as props to the Product Card component.
+// The Product Card component is then used in the App component to display the product details in a card format.
 
-const ProductCard = ({ title, description, price, image }) => {
-  
-  return (
-    <div className="m-8 bg-white rounded-xl border-solid shadow-md hover:shadow-xl transition-all duration-300 flex flex-col h-full">
-      {/* Image Container */}
-      <div className="p-4">
-        <div className="bg-gray-50 rounded-xl flex items-center justify-center h-48">
-          <img
-            src={image}
-            alt={title}
-            className="h-full object-contain hover:scale-105 transition-transform duration-300"
-          />
-        </div>
-      </div>
-      
-      {/* Content */}
-      <div className="p-4 flex-grow">
-        <h3 className="text-lg font-semibold text-gray-800 mb-2 truncate">
-          {title}
-        </h3>
-        <p className="text-sm text-gray-600 line-clamp-2">
-          {description}
-        </p>
-      </div>
-      
-      {/* Price Footer */}
-      <div className="p-4 border-t border-gray-100">
-        <p className="font-bold text-lg text-gray-900">{price}</p>
-      </div>
-    </div>
-  );
-};
 
-const ProductGrid = () => {
-  const products = [
-    {
-      title: "High Brew® Black and Bold",
-      description: "Perfect For the Purist. This uncomplicated and embellished black coffee is surprisingly low in calories.",
-      price: "$12.99 - $24.99",
-      image: "https://placehold.co/250x400" // Would be replaced by our assets
-    },
-    {
-      title: "Evolution Fresh® Organic Orange Juice",
-      description: "Experience the cold-pressed difference in organic orange juice that tastes like oranges, not 'O.J.'",
-      price: "$5.00 - $13.99",
-      image: "https://placehold.co/250x400" // Would be replaced by our assets
-    },
-    {
-      title: "Redbull® Zero",
-      description: "Taste Red Bull Energy Drink without sugar – Red Bull Zero.",
-      price: "$9.99",
-      image: "https://placehold.co/250x400" // Would be replaced by our assets
-    }
-  ];
-
+const App = () => {
+  const products = productData.data.productTypes.edges[0].node.productAttributes[0].values
+  // console.log(products);
   return (
     <div className="min-h-screen bg-gray-50 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -74,4 +29,4 @@ const ProductGrid = () => {
   );
 };
 
-export default ProductGrid;
+export default App;
