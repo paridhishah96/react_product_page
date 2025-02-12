@@ -19,7 +19,8 @@ const App = () => {
           Featured Beverages
         </h1>
         
-        <div className="grid grid-cols-3 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {/* making sure the grid is responsive - mobile first */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {products.map((product, index) => (
             <ProductCard key={index} {...product} />
           ))}

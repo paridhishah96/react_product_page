@@ -1,18 +1,19 @@
 import React from "react";
+import placeholder_juice from "../assets/placeholder_juice.jpeg"; // importing placeholder image for now
 
 // Since the this card can be used multiple times, I have created a separate component for the Product Card.
 
 
 // using spread operator for the props to pass the product details as props to the Product Card component.
 
-const ProductCard = ({ name, description, price, url }) => { 
+const ProductCard = ({ name, description, price }) => { 
     return (
       <div className="m-8 bg-white rounded-xl border-solid shadow-md hover:shadow-xl transition-all duration-300 flex flex-col h-full">
         {/* Image Container - Add images or routes of actual products instead of placeholders once available from API */}
         <div className="p-4">
           <div className="bg-gray-50 rounded-xl flex items-center justify-center h-48">
             <img
-              src={url}
+              src={placeholder_juice} // using placeholder image for now
               // adding alt text to the image for accessibility
               alt={'Image of ' + name + ' juice' } 
               className="h-full object-contain hover:scale-105 transition-transform duration-300"

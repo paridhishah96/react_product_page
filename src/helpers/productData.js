@@ -20,7 +20,6 @@ const productData ={
                       "name": "Pineapple",
                       "id": "QXR0cmlidXRlVmFsdWU6MTg4",
                       "slug": "pineapple",
-                      "url":"https://placehold.co/250x400",
                       "price": "2.99",
                       "description": "A tropical fruit that is sweet and tangy. It is the perfect flavor for a refreshing drink."
                     },
@@ -28,7 +27,6 @@ const productData ={
                       "name": "Cranberry",
                       "id": "QXR0cmlidXRlVmFsdWU6NTk2",
                       "slug": "cranberry",
-                      "url":"https://placehold.co/250x400",
                       "price": "2.99",
                       "description": "A tropical fruit that is sweet and tangy. It is the perfect flavor for a refreshing drink."
                     },
@@ -36,15 +34,6 @@ const productData ={
                       "name": "Grape",
                       "id": "QXR0cmlidXRlVmFsdWU6NTk3",
                       "slug": "grape",
-                      "url":"https://placehold.co/250x400",
-                      "price": "2.99",
-                      "description": "A tropical fruit that is sweet and tangy. It is the perfect flavor for a refreshing drink."
-                    },
-                    {
-                      "name": "Flavor",
-                      "id": "QXR0cmlidXRlVmFsdWU6ODAx",
-                      "slug": "flavor",
-                      "url":"https://placehold.co/250x400",
                       "price": "2.99",
                       "description": "A tropical fruit that is sweet and tangy. It is the perfect flavor for a refreshing drink."
                     },
@@ -52,7 +41,6 @@ const productData ={
                       "name": "Coconut",
                       "id": "QXR0cmlidXRlVmFsdWU6MTg5",
                       "slug": "coconut",
-                      "url":"https://placehold.co/250x400",
                       "price": "2.99",
                       "description": "A tropical fruit that is sweet and tangy. It is the perfect flavor for a refreshing drink."
                     },
@@ -60,7 +48,6 @@ const productData ={
                       "name": "Apple",
                       "id": "QXR0cmlidXRlVmFsdWU6MTkw",
                       "slug": "apple",
-                      "url":"https://placehold.co/250x400",
                       "price": "2.99",
                       "description": "A tropical fruit that is sweet and tangy. It is the perfect flavor for a refreshing drink."
                     },
@@ -68,7 +55,6 @@ const productData ={
                       "name": "Orange",
                       "id": "QXR0cmlidXRlVmFsdWU6MTk0",
                       "slug": "orange",
-                      "url":"https://placehold.co/250x400",
                       "price": "2.99",
                       "description": "A tropical fruit that is sweet and tangy. It is the perfect flavor for a refreshing drink."
                     },
@@ -76,7 +62,6 @@ const productData ={
                       "name": "Banana",
                       "id": "QXR0cmlidXRlVmFsdWU6MTk1",
                       "slug": "banana",
-                      "url":"https://placehold.co/250x400",
                       "price": "2.99",
                       "description": "A tropical fruit that is sweet and tangy. It is the perfect flavor for a refreshing drink."
                     },
@@ -84,7 +69,6 @@ const productData ={
                       "name": "Bean",
                       "id": "QXR0cmlidXRlVmFsdWU6MTk2",
                       "slug": "bean",
-                      "url":"https://placehold.co/250x400",
                       "price": "2.99",
                       "description": "A tropical fruit that is sweet and tangy. It is the perfect flavor for a refreshing drink."
                     },
@@ -92,7 +76,6 @@ const productData ={
                       "name": "Carrot",
                       "id": "QXR0cmlidXRlVmFsdWU6MTk3",
                       "slug": "carrot",
-                      "url":"https://placehold.co/250x400",
                       "price": "2.99",
                       "description": "A tropical fruit that is sweet and tangy. It is the perfect flavor for a refreshing drink."
                     },
@@ -100,7 +83,6 @@ const productData ={
                       "name": "Sprouty",
                       "id": "QXR0cmlidXRlVmFsdWU6MTk4",
                       "slug": "sprouty",
-                      "url":"https://placehold.co/250x400",
                       "price": "2.99",
                       "description": "A tropical fruit that is sweet and tangy. It is the perfect flavor for a refreshing drink."
                     },
@@ -108,7 +90,6 @@ const productData ={
                       "name": "Salty, like the tears of your enemy",
                       "id": "QXR0cmlidXRlVmFsdWU6MTk5",
                       "slug": "salty-like-the-tears-of-your-enemy",
-                      "url":"https://placehold.co/250x400",
                       "price": "2.99",
                       "description": "A tropical fruit that is sweet and tangy. It is the perfect flavor for a refreshing drink."
                     }
