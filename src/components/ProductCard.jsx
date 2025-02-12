@@ -25,7 +25,7 @@ const ProductCard = ({ name, description, price }) => {
           <h3 className="text-lg font-semibold text-gray-800 mb-2 truncate">
             {name}
           </h3>
-          <p className="text-sm text-gray-600 line-clamp-2">
+          <p className="text-sm text-gray-600 line-clamp-4">
             {description}
           </p>
         </div>
